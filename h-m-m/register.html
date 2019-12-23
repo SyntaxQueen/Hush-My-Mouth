@@ -20,23 +20,24 @@
         </header>
 
         <div class="register-main">
-            <form action="/submit-login-form">
+            <form action="/submit-login-form" class="register-form">
             <input type="text" placeholder="First Name">
             <input type="text" placeholder="Lase Name">
             <input type="email" placeholder="Email Address">
             <input type="text" placeholder="Password">
             <input type="text" placeholder="Confirm Password">
             
-            <label for= "Human">
-                <input id="human" type="radio" name="human-animal">
-                I am a human.
-            </label>
+            <div class="register-label">
+                <label for= "Human">
+                    <input id="human" type="radio" name="human-animal">
+                    I am a human.
+                </label>
 
-            <label for= "Animal">
-                <input id="animal" type="radio" name="human-animal">
-                I am an animal.
-            </label>
-
+                <label for= "Animal">
+                    <input id="animal" type="radio" name="human-animal">
+                    I am an animal.
+                </label>
+            </div>
             <button type="submit">Register Me</button>
 
 
