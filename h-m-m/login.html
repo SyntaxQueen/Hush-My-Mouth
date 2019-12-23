@@ -3,12 +3,14 @@
     <head>
         <meta charset="utf-8">
         <link rel="stylesheet" type="text/css" href="./index.css">
-        <title>Hush My Mouth</title>
+        <title>Log In</title>
     </head>
+
+
     <body>
         <header>
             <nav>
-                <h1>Hush My Mouth</h1>
+                <a href="index.html">Hush My Mouth</a>
             <div class="nav-links">
                 <a href="./login.html">Login</a>
                 <a href="./register.html">Register</a>
@@ -17,18 +19,17 @@
             </nav>
         </header>
 
-        <main>
-            <div class='main-img'>
-                <img src="Images/woman-praying.jpg" alt="A Woman Praying" />
-            </div>
-        </main>
+        <div class="login-main">
+            <form action="/submit-login-form">
+            <input type="text" placeholder="User Name">
+            <input type="text" placeholder="Password">
+          
+            <button type="submit">Login In</button>
 
-        <footer>
-            <div class="main-footer">
-                <h3>Hush My Mouth</h3>
-                <p>copyright @Kristian Claire</p>
-            </div>
-        </footer>
+
+            </form>
+        </div>
+
 
     </body>
 </html>
