@@ -1,13 +1,14 @@
 body {
-    background-image: url(images/pink-wall.jpg);
-    color: grey;
-    
+    color: grey;  
 }
 
+main {
+    margin-top: 2%;
+    background-image: url(images/pink-wall.jpg);
+}
 nav {
-    border: 2px solid honeydew;
+    border: 2px solid pink;
     border-radius: 17px;
-
     width: 80%;
     display: flex;
     margin: 0 auto;
