@@ -2,13 +2,8 @@ body {
     color: grey;  
 }
 
-main {
-    margin-top: 2%;
-    background-image: url(images/pink-wall.jpg);
-}
-
 nav {
-    border: 2px solid #DC555B;
+    border: 3px solid #DC555B;
     border-radius: 17px;
     width: 80%;
     display: flex;
@@ -18,11 +13,32 @@ nav {
 }
 nav h1, h2, h3 {
     color: #DC555B;
-    font-family: 'Noto Sans', sans-serif;
-    font-size: 45px;
+    font-family: 'Abel', sans-serif;
+    font-size: 40px;
     padding-left: 13%;
 }
 
+.nav-btn {
+    display: flex;
+    justify-content: center;
+    margin-top: 65%;
+    width: 100%;
+    height: 45px;
+}
+
+#nav-btn {
+    font-size: 26px;
+    font-family: 'Raleway', sans-serif;
+    border-radius: 17px;
+    background-color: white;
+    color: #DC555B;
+    border: 1px solid white;
+}
+
+#nav-btn:hover {
+    background-color: #DC555B;
+    color: white;
+}
 
 img {
     width: 700px;
@@ -31,9 +47,36 @@ img {
     border-radius: 3%;
 }
 
-.main-img {
-    padding-top: 2%;
-    padding-bottom: 2%;
+
+.nav-img {
+display: flex;
+width: 70%;
+height: 600px;
+justify-content: flex-end;
+}
+
+
+.nav-title {
+    display: flex;
+    flex-direction: column;
+}
+
+#nav-title {
     display: flex;
     justify-content: center;
 }
+
+.nav-title h1 {
+    color: #DD6060;
+}
+
+.nav-title h2 {
+    margin-top: 30%;
+    color: #DA5558;
+}
+
+.nav-title h3 {
+    margin-top: 60%;
+    color: #DC555B;
+}
+
