@@ -6,14 +6,16 @@ main {
     margin-top: 2%;
     background-image: url(images/pink-wall.jpg);
 }
+
 nav {
     border: 2px solid pink;
     border-radius: 17px;
     width: 80%;
     display: flex;
     margin: 0 auto;
-}
 
+
+}
 nav h1 {
     color: green;
     font-family: 'Noto Sans', sans-serif;
@@ -29,16 +31,40 @@ nav h1 {
     justify-content: space-evenly;
 }
 
+
 nav a {
     display: flex;
     align-items: center;
     color: green;
     font-family: 'Noto Sans', sans-serif;
     text-decoration: none;
+
+
+}
+nav a:hover {
+        color: pink;
 }
 
-nav a:hover {
-    color: pink;
+
+.main-title {
+    border: 2px solid green;
+    width: 45%;
+    height: auto;
+    color: green;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.top-info-container {
+    border: 2px solid purple;
+    width: 45%;
+    color: purple;
+}
+
+.bottom-info-container {
+    border: 2px solid black;
+    color: black;
 }
 
 img {
