@@ -13,7 +13,7 @@ nav {
 }
 nav h1, h2, h3 {
     color: #DC555B;
-    font-family: 'Abel', sans-serif;
+    font-family: 'Satisfy', cursive;
     font-size: 40px;
     padding-left: 13%;
 }
@@ -86,3 +86,36 @@ justify-content: flex-end;
     color: #DC555B;
 }
 
+.reg-nav {
+    border: 2px solid #DC555B;
+    height: 200px;
+}
+
+#reg-nav-link {
+    text-decoration: none;
+    color: #DC555B;
+    font-family: 'Satisfy', cursive;
+    font-size: 56px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#reg-nav-link:hover {
+    text-decoration: underline;
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 5%;
+}
+
+.card {
+    border: 2px solid #DC555B;
+    border-radius: 17px;
+    box-shadow: 10px 10px pink;
+    width: 400px;
+    height: 400px;
+}
