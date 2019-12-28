@@ -27,16 +27,22 @@ nav h1, h2, h3 {
 }
 
 #nav-btn {
+    border: 2px solid #DC555B;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-size: 26px;
+    text-decoration: none;
     font-family: 'Raleway', sans-serif;
     border-radius: 17px;
     background-color: white;
     color: #DC555B;
-    border: 1px solid white;
 }
 
 #nav-btn:hover {
     background-color: #DC555B;
+    border: 2px solid white;
     color: white;
 }
 
