@@ -22,7 +22,7 @@
                     <h4>Register</h4>
                   </div>
                   <div class="flip-card-back">
-                    <form action="action_page.php">
+                    <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>
                     <label for="email">Email</label>
                     <input type="text" placeholder="Enter Email" name="email" required>
 
