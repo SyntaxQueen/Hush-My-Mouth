@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en"></html>
+    <head>
+        <meta charset="utf-8">
+        <link href="https://fonts.googleapis.com/css?family=Cedarville+Cursive|Dancing+Script|Pacifico|Satisfy&display=swap" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="./index.css">
+        <title>Hush My Mouth</title>
+    </head>
+
+
+    <body>
+        <div id="main-body">
+       <nav class="reg-nav">
+           <a href="index.html" alt="Return to landing page" id="reg-nav-link">Hush My Mouth</a>
+       </nav>>
+
+       <span class="main-body">
+
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                  <div class="flip-card-front">
+                    <h4>Register</h4>
+                  </div>
+                  <div class="flip-card-back">
+                    <form action="action_page.php">
+                    <label for="email">Email</label>
+                    <input type="text" placeholder="Enter Email" name="email" required>
+
+                    <label for="psw">Password</label>
+                    <input type="password" placeholder="Enter Password" name="psw" required>
+
+                    <label for="psw-repeat">Repeat Password</label>
+                    <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+
+                    <button type="submit" class="registerbtn">Register</button>
+                    </form>
+                  </div>
+                </div>
+              </div>
+
+            <div class="flip-card">
+                <div class="flip-card-inner1">
+                  <div class="flip-card-front1">
+                    <h4>Login</h4>
+                  </div>
+                  <div class="flip-card-back1">
+                    <form action="action_page.php" method="post">
+                        <label for="uname">Username</label>
+                        <input type="text" placeholder="Enter Username" name="uname" required>
+                    
+                        <label for="psw">Password</label>
+                        <input type="password" placeholder="Enter Password" name="psw" required>
+                    
+                        <button type="submit">Login</button>
+                        <label>
+                          <input type="checkbox" checked="checked" name="remember"> Remember me
+                        </label>
+                    </form>
+                  </div>
+                </div>
+              </div>
+
+        </span>
+    </body>
+</div>
+</html>
