@@ -277,3 +277,53 @@ justify-content: flex-end;
       background-color: #7a5153;
   }
 
+
+/* Styling for See-Hushes Page */
+
+.see-body {
+    background-color: white;
+}
+
+.see-nav {
+    border: 2px solid #7a5153;
+    box-shadow: 10px 10px  #7a5153;
+    background-color: white;
+    height: 150px;
+}
+
+.see-nav a {
+    text-decoration: none;
+    color: #DC555B;
+    font-family: 'Satisfy', cursive;
+    font-size: 56px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.see-nav a:hover {
+    text-decoration: underline;
+}
+
+.see-main {
+    color: white;
+}
+
+.see-bubble {
+    border: 2px solid #DA5558;
+    color: #DA5558;
+    border-radius: 50%;
+    display: flex;
+    width: 150px;
+    height: 150px;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    padding: 1%;
+}
+
+.see-text p {
+    color: purple;
+    
+}
